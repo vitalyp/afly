@@ -1,3 +1,5 @@
+require 'gmail'
+
 class HomeController < ApplicationController
 
   def index
