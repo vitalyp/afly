@@ -16,6 +16,7 @@ gem 'heroku'
 gem 'ruby-gmail'
 gem 'haml-rails'
 gem 'pry'
+gem 'pg'
 
 
 #gem "ruby-skype"
