@@ -108,7 +108,6 @@ GEM
       mail (>= 2.2.1)
       mime (>= 0.1)
       shared-mime-info
-    ruby-skype (0.1.0.pre.2)
     rubyzip (1.1.2)
     sass (3.2.18)
     sass-rails (4.0.2)
@@ -158,7 +157,6 @@ DEPENDENCIES
   pry
   rails (= 4.0.4)
   ruby-gmail
-  ruby-skype
   sass-rails (~> 4.0.2)
   sdoc
   turbolinks

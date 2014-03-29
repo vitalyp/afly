@@ -18,7 +18,7 @@ gem 'haml-rails'
 gem 'pry'
 
 
-gem "ruby-skype"
+#gem "ruby-skype"
 #gem "ruby-dbus" if RUBY_PLATFORM =~ /linux/i
 #gem 'skypekit'
 
