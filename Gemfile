@@ -15,6 +15,12 @@ gem 'uglifier', '>= 1.3.0'
 gem 'heroku'
 gem 'ruby-gmail'
 gem 'haml-rails'
+gem 'pry'
+
+
+gem "ruby-skype"
+#gem "ruby-dbus" if RUBY_PLATFORM =~ /linux/i
+#gem 'skypekit'
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'

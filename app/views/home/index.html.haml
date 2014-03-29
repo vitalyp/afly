@@ -1,1 +1,26 @@
-index.html.haml
+GMail:
+%hr
+Inbox count:
+= @inbox_count
+%br
+Total unread:
+= @unread
+%br
+Total read:
+= @read
+- @emails.each_with_index do |email, index| 
+  %hr
+  %i= "email #{index+1}"
+  %br
+  %b Subject:
+  %br
+  = email.message.subject.html_safe
+  %br
+  %b Content:
+  =# email.message.body.raw_source.html_safe
+  - email.body.parts[1..-1].each do |part|
+    = part.decoded.html_safe
+
+
+-################
+- @gmail.logout
