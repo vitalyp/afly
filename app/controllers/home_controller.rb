@@ -3,7 +3,7 @@ require 'gmail'
 class HomeController < ApplicationController
 
   def index
-    uname = 'vitalyp@softwareplanet.uk.com'
+    uname = 'taraskova16@gmail.com'
     u_pass = ENV['gmail_password']
 
     @inbox_count = -1
