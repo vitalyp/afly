@@ -12,7 +12,7 @@ gem 'sass-rails', '~> 4.0.2'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
-gem 'heroku'
+#gem 'heroku'
 gem 'ruby-gmail'
 gem 'haml-rails'
 gem 'pry'
