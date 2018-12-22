@@ -15,7 +15,7 @@ gem 'uglifier', '>= 1.3.0'
 #gem 'heroku'
 gem 'ruby-gmail'
 gem 'haml-rails'
-gem 'pry'
+#gem 'pry'
 gem 'pg'
 
 
@@ -36,7 +36,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
+#gem 'jbuilder', '~> 1.2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
